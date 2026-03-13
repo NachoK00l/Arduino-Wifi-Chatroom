@@ -1,19 +1,19 @@
 [
   {
-    "added_include_path": "C:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\cores\\arduino"
+    "added_include_path": "C:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\cores\\arduino"
   },
   {
-    "added_include_path": "C:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\variants\\nano_33_iot"
+    "added_include_path": "C:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\variants\\nano_33_iot"
   },
   {
     "compile": {
-      "source_path": "c:\\Users\\GaelHenriquezDevia\\OneDrive - Sint-Jozefinstituut Schoten\\Documenten\\Arduino\\Arduino-Wifi-Chatroom\\Client\\build\\sketch\\Client.ino.cpp",
-      "object_path": "c:\\Users\\GaelHenriquezDevia\\OneDrive - Sint-Jozefinstituut Schoten\\Documenten\\Arduino\\Arduino-Wifi-Chatroom\\Client\\build\\sketch\\Client.ino.cpp.o",
-      "depfile_path": "c:\\Users\\GaelHenriquezDevia\\OneDrive - Sint-Jozefinstituut Schoten\\Documenten\\Arduino\\Arduino-Wifi-Chatroom\\Client\\build\\sketch\\Client.ino.cpp.d"
+      "source_path": "C:\\Users\\zeno7\\Documents\\Arduino-Wifi-Chatroom\\Client\\build\\sketch\\Client.ino.cpp",
+      "object_path": "C:\\Users\\zeno7\\Documents\\Arduino-Wifi-Chatroom\\Client\\build\\sketch\\Client.ino.cpp.o",
+      "depfile_path": "C:\\Users\\zeno7\\Documents\\Arduino-Wifi-Chatroom\\Client\\build\\sketch\\Client.ino.cpp.d"
     },
     "compile_task": {
       "args": [
-        "C:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\7-2017q4/bin/arm-none-eabi-g++",
+        "C:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\7-2017q4/bin/arm-none-eabi-g++",
         "-mcpu=cortex-m0plus",
         "-mthumb",
         "-c",
@@ -45,13 +45,13 @@
         "-DUSBCON",
         "-DUSB_MANUFACTURER=\"Arduino LLC\"",
         "-DUSB_PRODUCT=\"Arduino NANO 33 IoT\"",
-        "-IC:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS\\4.5.0/CMSIS/Include/",
-        "-IC:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS-Atmel\\1.2.0/CMSIS/Device/ATMEL/",
-        "-IC:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\cores\\arduino/api/deprecated",
-        "-IC:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\cores\\arduino/api/deprecated-avr-comp",
-        "-IC:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\cores\\arduino",
-        "-IC:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\variants\\nano_33_iot",
-        "c:\\Users\\GaelHenriquezDevia\\OneDrive - Sint-Jozefinstituut Schoten\\Documenten\\Arduino\\Arduino-Wifi-Chatroom\\Client\\build\\sketch\\Client.ino.cpp",
+        "-IC:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS\\4.5.0/CMSIS/Include/",
+        "-IC:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS-Atmel\\1.2.0/CMSIS/Device/ATMEL/",
+        "-IC:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\cores\\arduino/api/deprecated",
+        "-IC:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\cores\\arduino/api/deprecated-avr-comp",
+        "-IC:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\cores\\arduino",
+        "-IC:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\variants\\nano_33_iot",
+        "C:\\Users\\zeno7\\Documents\\Arduino-Wifi-Chatroom\\Client\\build\\sketch\\Client.ino.cpp",
         "-o",
         "nul"
       ]
@@ -61,17 +61,17 @@
     "missing_include_h": "WiFi.h"
   },
   {
-    "added_include_path": "C:\\Users\\GaelHenriquezDevia\\Documents\\Arduino\\libraries\\WiFiNINA\\src"
+    "added_include_path": "C:\\Users\\zeno7\\Documents\\Arduino\\libraries\\WiFiNINA\\src"
   },
   {
     "compile": {
-      "source_path": "c:\\Users\\GaelHenriquezDevia\\OneDrive - Sint-Jozefinstituut Schoten\\Documenten\\Arduino\\Arduino-Wifi-Chatroom\\Client\\build\\sketch\\Client.ino.cpp",
-      "object_path": "c:\\Users\\GaelHenriquezDevia\\OneDrive - Sint-Jozefinstituut Schoten\\Documenten\\Arduino\\Arduino-Wifi-Chatroom\\Client\\build\\sketch\\Client.ino.cpp.o",
-      "depfile_path": "c:\\Users\\GaelHenriquezDevia\\OneDrive - Sint-Jozefinstituut Schoten\\Documenten\\Arduino\\Arduino-Wifi-Chatroom\\Client\\build\\sketch\\Client.ino.cpp.d"
+      "source_path": "C:\\Users\\zeno7\\Documents\\Arduino-Wifi-Chatroom\\Client\\build\\sketch\\Client.ino.cpp",
+      "object_path": "C:\\Users\\zeno7\\Documents\\Arduino-Wifi-Chatroom\\Client\\build\\sketch\\Client.ino.cpp.o",
+      "depfile_path": "C:\\Users\\zeno7\\Documents\\Arduino-Wifi-Chatroom\\Client\\build\\sketch\\Client.ino.cpp.d"
     },
     "compile_task": {
       "args": [
-        "C:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\7-2017q4/bin/arm-none-eabi-g++",
+        "C:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\7-2017q4/bin/arm-none-eabi-g++",
         "-mcpu=cortex-m0plus",
         "-mthumb",
         "-c",
@@ -103,14 +103,14 @@
         "-DUSBCON",
         "-DUSB_MANUFACTURER=\"Arduino LLC\"",
         "-DUSB_PRODUCT=\"Arduino NANO 33 IoT\"",
-        "-IC:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS\\4.5.0/CMSIS/Include/",
-        "-IC:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS-Atmel\\1.2.0/CMSIS/Device/ATMEL/",
-        "-IC:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\cores\\arduino/api/deprecated",
-        "-IC:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\cores\\arduino/api/deprecated-avr-comp",
-        "-IC:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\cores\\arduino",
-        "-IC:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\variants\\nano_33_iot",
-        "-IC:\\Users\\GaelHenriquezDevia\\Documents\\Arduino\\libraries\\WiFiNINA\\src",
-        "c:\\Users\\GaelHenriquezDevia\\OneDrive - Sint-Jozefinstituut Schoten\\Documenten\\Arduino\\Arduino-Wifi-Chatroom\\Client\\build\\sketch\\Client.ino.cpp",
+        "-IC:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS\\4.5.0/CMSIS/Include/",
+        "-IC:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS-Atmel\\1.2.0/CMSIS/Device/ATMEL/",
+        "-IC:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\cores\\arduino/api/deprecated",
+        "-IC:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\cores\\arduino/api/deprecated-avr-comp",
+        "-IC:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\cores\\arduino",
+        "-IC:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\variants\\nano_33_iot",
+        "-IC:\\Users\\zeno7\\Documents\\Arduino\\libraries\\WiFiNINA\\src",
+        "C:\\Users\\zeno7\\Documents\\Arduino-Wifi-Chatroom\\Client\\build\\sketch\\Client.ino.cpp",
         "-o",
         "nul"
       ]
@@ -121,13 +121,13 @@
   },
   {
     "compile": {
-      "source_path": "C:\\Users\\GaelHenriquezDevia\\Documents\\Arduino\\libraries\\WiFiNINA\\src\\WiFi.cpp",
-      "object_path": "c:\\Users\\GaelHenriquezDevia\\OneDrive - Sint-Jozefinstituut Schoten\\Documenten\\Arduino\\Arduino-Wifi-Chatroom\\Client\\build\\libraries\\WiFiNINA\\WiFi.cpp.o",
-      "depfile_path": "c:\\Users\\GaelHenriquezDevia\\OneDrive - Sint-Jozefinstituut Schoten\\Documenten\\Arduino\\Arduino-Wifi-Chatroom\\Client\\build\\libraries\\WiFiNINA\\WiFi.cpp.d"
+      "source_path": "C:\\Users\\zeno7\\Documents\\Arduino\\libraries\\WiFiNINA\\src\\WiFi.cpp",
+      "object_path": "C:\\Users\\zeno7\\Documents\\Arduino-Wifi-Chatroom\\Client\\build\\libraries\\WiFiNINA\\WiFi.cpp.o",
+      "depfile_path": "C:\\Users\\zeno7\\Documents\\Arduino-Wifi-Chatroom\\Client\\build\\libraries\\WiFiNINA\\WiFi.cpp.d"
     },
     "compile_task": {
       "args": [
-        "C:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\7-2017q4/bin/arm-none-eabi-g++",
+        "C:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\7-2017q4/bin/arm-none-eabi-g++",
         "-mcpu=cortex-m0plus",
         "-mthumb",
         "-c",
@@ -159,14 +159,14 @@
         "-DUSBCON",
         "-DUSB_MANUFACTURER=\"Arduino LLC\"",
         "-DUSB_PRODUCT=\"Arduino NANO 33 IoT\"",
-        "-IC:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS\\4.5.0/CMSIS/Include/",
-        "-IC:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS-Atmel\\1.2.0/CMSIS/Device/ATMEL/",
-        "-IC:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\cores\\arduino/api/deprecated",
-        "-IC:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\cores\\arduino/api/deprecated-avr-comp",
-        "-IC:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\cores\\arduino",
-        "-IC:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\variants\\nano_33_iot",
-        "-IC:\\Users\\GaelHenriquezDevia\\Documents\\Arduino\\libraries\\WiFiNINA\\src",
-        "C:\\Users\\GaelHenriquezDevia\\Documents\\Arduino\\libraries\\WiFiNINA\\src\\WiFi.cpp",
+        "-IC:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS\\4.5.0/CMSIS/Include/",
+        "-IC:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS-Atmel\\1.2.0/CMSIS/Device/ATMEL/",
+        "-IC:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\cores\\arduino/api/deprecated",
+        "-IC:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\cores\\arduino/api/deprecated-avr-comp",
+        "-IC:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\cores\\arduino",
+        "-IC:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\variants\\nano_33_iot",
+        "-IC:\\Users\\zeno7\\Documents\\Arduino\\libraries\\WiFiNINA\\src",
+        "C:\\Users\\zeno7\\Documents\\Arduino\\libraries\\WiFiNINA\\src\\WiFi.cpp",
         "-o",
         "nul"
       ]
@@ -177,13 +177,13 @@
   },
   {
     "compile": {
-      "source_path": "C:\\Users\\GaelHenriquezDevia\\Documents\\Arduino\\libraries\\WiFiNINA\\src\\WiFiClient.cpp",
-      "object_path": "c:\\Users\\GaelHenriquezDevia\\OneDrive - Sint-Jozefinstituut Schoten\\Documenten\\Arduino\\Arduino-Wifi-Chatroom\\Client\\build\\libraries\\WiFiNINA\\WiFiClient.cpp.o",
-      "depfile_path": "c:\\Users\\GaelHenriquezDevia\\OneDrive - Sint-Jozefinstituut Schoten\\Documenten\\Arduino\\Arduino-Wifi-Chatroom\\Client\\build\\libraries\\WiFiNINA\\WiFiClient.cpp.d"
+      "source_path": "C:\\Users\\zeno7\\Documents\\Arduino\\libraries\\WiFiNINA\\src\\WiFiClient.cpp",
+      "object_path": "C:\\Users\\zeno7\\Documents\\Arduino-Wifi-Chatroom\\Client\\build\\libraries\\WiFiNINA\\WiFiClient.cpp.o",
+      "depfile_path": "C:\\Users\\zeno7\\Documents\\Arduino-Wifi-Chatroom\\Client\\build\\libraries\\WiFiNINA\\WiFiClient.cpp.d"
     },
     "compile_task": {
       "args": [
-        "C:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\7-2017q4/bin/arm-none-eabi-g++",
+        "C:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\7-2017q4/bin/arm-none-eabi-g++",
         "-mcpu=cortex-m0plus",
         "-mthumb",
         "-c",
@@ -215,14 +215,14 @@
         "-DUSBCON",
         "-DUSB_MANUFACTURER=\"Arduino LLC\"",
         "-DUSB_PRODUCT=\"Arduino NANO 33 IoT\"",
-        "-IC:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS\\4.5.0/CMSIS/Include/",
-        "-IC:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS-Atmel\\1.2.0/CMSIS/Device/ATMEL/",
-        "-IC:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\cores\\arduino/api/deprecated",
-        "-IC:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\cores\\arduino/api/deprecated-avr-comp",
-        "-IC:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\cores\\arduino",
-        "-IC:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\variants\\nano_33_iot",
-        "-IC:\\Users\\GaelHenriquezDevia\\Documents\\Arduino\\libraries\\WiFiNINA\\src",
-        "C:\\Users\\GaelHenriquezDevia\\Documents\\Arduino\\libraries\\WiFiNINA\\src\\WiFiClient.cpp",
+        "-IC:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS\\4.5.0/CMSIS/Include/",
+        "-IC:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS-Atmel\\1.2.0/CMSIS/Device/ATMEL/",
+        "-IC:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\cores\\arduino/api/deprecated",
+        "-IC:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\cores\\arduino/api/deprecated-avr-comp",
+        "-IC:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\cores\\arduino",
+        "-IC:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\variants\\nano_33_iot",
+        "-IC:\\Users\\zeno7\\Documents\\Arduino\\libraries\\WiFiNINA\\src",
+        "C:\\Users\\zeno7\\Documents\\Arduino\\libraries\\WiFiNINA\\src\\WiFiClient.cpp",
         "-o",
         "nul"
       ]
@@ -233,13 +233,13 @@
   },
   {
     "compile": {
-      "source_path": "C:\\Users\\GaelHenriquezDevia\\Documents\\Arduino\\libraries\\WiFiNINA\\src\\WiFiPreferences.cpp",
-      "object_path": "c:\\Users\\GaelHenriquezDevia\\OneDrive - Sint-Jozefinstituut Schoten\\Documenten\\Arduino\\Arduino-Wifi-Chatroom\\Client\\build\\libraries\\WiFiNINA\\WiFiPreferences.cpp.o",
-      "depfile_path": "c:\\Users\\GaelHenriquezDevia\\OneDrive - Sint-Jozefinstituut Schoten\\Documenten\\Arduino\\Arduino-Wifi-Chatroom\\Client\\build\\libraries\\WiFiNINA\\WiFiPreferences.cpp.d"
+      "source_path": "C:\\Users\\zeno7\\Documents\\Arduino\\libraries\\WiFiNINA\\src\\WiFiPreferences.cpp",
+      "object_path": "C:\\Users\\zeno7\\Documents\\Arduino-Wifi-Chatroom\\Client\\build\\libraries\\WiFiNINA\\WiFiPreferences.cpp.o",
+      "depfile_path": "C:\\Users\\zeno7\\Documents\\Arduino-Wifi-Chatroom\\Client\\build\\libraries\\WiFiNINA\\WiFiPreferences.cpp.d"
     },
     "compile_task": {
       "args": [
-        "C:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\7-2017q4/bin/arm-none-eabi-g++",
+        "C:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\7-2017q4/bin/arm-none-eabi-g++",
         "-mcpu=cortex-m0plus",
         "-mthumb",
         "-c",
@@ -271,14 +271,14 @@
         "-DUSBCON",
         "-DUSB_MANUFACTURER=\"Arduino LLC\"",
         "-DUSB_PRODUCT=\"Arduino NANO 33 IoT\"",
-        "-IC:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS\\4.5.0/CMSIS/Include/",
-        "-IC:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS-Atmel\\1.2.0/CMSIS/Device/ATMEL/",
-        "-IC:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\cores\\arduino/api/deprecated",
-        "-IC:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\cores\\arduino/api/deprecated-avr-comp",
-        "-IC:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\cores\\arduino",
-        "-IC:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\variants\\nano_33_iot",
-        "-IC:\\Users\\GaelHenriquezDevia\\Documents\\Arduino\\libraries\\WiFiNINA\\src",
-        "C:\\Users\\GaelHenriquezDevia\\Documents\\Arduino\\libraries\\WiFiNINA\\src\\WiFiPreferences.cpp",
+        "-IC:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS\\4.5.0/CMSIS/Include/",
+        "-IC:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS-Atmel\\1.2.0/CMSIS/Device/ATMEL/",
+        "-IC:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\cores\\arduino/api/deprecated",
+        "-IC:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\cores\\arduino/api/deprecated-avr-comp",
+        "-IC:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\cores\\arduino",
+        "-IC:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\variants\\nano_33_iot",
+        "-IC:\\Users\\zeno7\\Documents\\Arduino\\libraries\\WiFiNINA\\src",
+        "C:\\Users\\zeno7\\Documents\\Arduino\\libraries\\WiFiNINA\\src\\WiFiPreferences.cpp",
         "-o",
         "nul"
       ]
@@ -289,13 +289,13 @@
   },
   {
     "compile": {
-      "source_path": "C:\\Users\\GaelHenriquezDevia\\Documents\\Arduino\\libraries\\WiFiNINA\\src\\WiFiSSLClient.cpp",
-      "object_path": "c:\\Users\\GaelHenriquezDevia\\OneDrive - Sint-Jozefinstituut Schoten\\Documenten\\Arduino\\Arduino-Wifi-Chatroom\\Client\\build\\libraries\\WiFiNINA\\WiFiSSLClient.cpp.o",
-      "depfile_path": "c:\\Users\\GaelHenriquezDevia\\OneDrive - Sint-Jozefinstituut Schoten\\Documenten\\Arduino\\Arduino-Wifi-Chatroom\\Client\\build\\libraries\\WiFiNINA\\WiFiSSLClient.cpp.d"
+      "source_path": "C:\\Users\\zeno7\\Documents\\Arduino\\libraries\\WiFiNINA\\src\\WiFiSSLClient.cpp",
+      "object_path": "C:\\Users\\zeno7\\Documents\\Arduino-Wifi-Chatroom\\Client\\build\\libraries\\WiFiNINA\\WiFiSSLClient.cpp.o",
+      "depfile_path": "C:\\Users\\zeno7\\Documents\\Arduino-Wifi-Chatroom\\Client\\build\\libraries\\WiFiNINA\\WiFiSSLClient.cpp.d"
     },
     "compile_task": {
       "args": [
-        "C:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\7-2017q4/bin/arm-none-eabi-g++",
+        "C:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\7-2017q4/bin/arm-none-eabi-g++",
         "-mcpu=cortex-m0plus",
         "-mthumb",
         "-c",
@@ -327,14 +327,14 @@
         "-DUSBCON",
         "-DUSB_MANUFACTURER=\"Arduino LLC\"",
         "-DUSB_PRODUCT=\"Arduino NANO 33 IoT\"",
-        "-IC:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS\\4.5.0/CMSIS/Include/",
-        "-IC:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS-Atmel\\1.2.0/CMSIS/Device/ATMEL/",
-        "-IC:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\cores\\arduino/api/deprecated",
-        "-IC:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\cores\\arduino/api/deprecated-avr-comp",
-        "-IC:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\cores\\arduino",
-        "-IC:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\variants\\nano_33_iot",
-        "-IC:\\Users\\GaelHenriquezDevia\\Documents\\Arduino\\libraries\\WiFiNINA\\src",
-        "C:\\Users\\GaelHenriquezDevia\\Documents\\Arduino\\libraries\\WiFiNINA\\src\\WiFiSSLClient.cpp",
+        "-IC:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS\\4.5.0/CMSIS/Include/",
+        "-IC:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS-Atmel\\1.2.0/CMSIS/Device/ATMEL/",
+        "-IC:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\cores\\arduino/api/deprecated",
+        "-IC:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\cores\\arduino/api/deprecated-avr-comp",
+        "-IC:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\cores\\arduino",
+        "-IC:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\variants\\nano_33_iot",
+        "-IC:\\Users\\zeno7\\Documents\\Arduino\\libraries\\WiFiNINA\\src",
+        "C:\\Users\\zeno7\\Documents\\Arduino\\libraries\\WiFiNINA\\src\\WiFiSSLClient.cpp",
         "-o",
         "nul"
       ]
@@ -345,13 +345,13 @@
   },
   {
     "compile": {
-      "source_path": "C:\\Users\\GaelHenriquezDevia\\Documents\\Arduino\\libraries\\WiFiNINA\\src\\WiFiServer.cpp",
-      "object_path": "c:\\Users\\GaelHenriquezDevia\\OneDrive - Sint-Jozefinstituut Schoten\\Documenten\\Arduino\\Arduino-Wifi-Chatroom\\Client\\build\\libraries\\WiFiNINA\\WiFiServer.cpp.o",
-      "depfile_path": "c:\\Users\\GaelHenriquezDevia\\OneDrive - Sint-Jozefinstituut Schoten\\Documenten\\Arduino\\Arduino-Wifi-Chatroom\\Client\\build\\libraries\\WiFiNINA\\WiFiServer.cpp.d"
+      "source_path": "C:\\Users\\zeno7\\Documents\\Arduino\\libraries\\WiFiNINA\\src\\WiFiServer.cpp",
+      "object_path": "C:\\Users\\zeno7\\Documents\\Arduino-Wifi-Chatroom\\Client\\build\\libraries\\WiFiNINA\\WiFiServer.cpp.o",
+      "depfile_path": "C:\\Users\\zeno7\\Documents\\Arduino-Wifi-Chatroom\\Client\\build\\libraries\\WiFiNINA\\WiFiServer.cpp.d"
     },
     "compile_task": {
       "args": [
-        "C:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\7-2017q4/bin/arm-none-eabi-g++",
+        "C:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\7-2017q4/bin/arm-none-eabi-g++",
         "-mcpu=cortex-m0plus",
         "-mthumb",
         "-c",
@@ -383,14 +383,14 @@
         "-DUSBCON",
         "-DUSB_MANUFACTURER=\"Arduino LLC\"",
         "-DUSB_PRODUCT=\"Arduino NANO 33 IoT\"",
-        "-IC:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS\\4.5.0/CMSIS/Include/",
-        "-IC:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS-Atmel\\1.2.0/CMSIS/Device/ATMEL/",
-        "-IC:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\cores\\arduino/api/deprecated",
-        "-IC:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\cores\\arduino/api/deprecated-avr-comp",
-        "-IC:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\cores\\arduino",
-        "-IC:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\variants\\nano_33_iot",
-        "-IC:\\Users\\GaelHenriquezDevia\\Documents\\Arduino\\libraries\\WiFiNINA\\src",
-        "C:\\Users\\GaelHenriquezDevia\\Documents\\Arduino\\libraries\\WiFiNINA\\src\\WiFiServer.cpp",
+        "-IC:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS\\4.5.0/CMSIS/Include/",
+        "-IC:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS-Atmel\\1.2.0/CMSIS/Device/ATMEL/",
+        "-IC:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\cores\\arduino/api/deprecated",
+        "-IC:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\cores\\arduino/api/deprecated-avr-comp",
+        "-IC:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\cores\\arduino",
+        "-IC:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\variants\\nano_33_iot",
+        "-IC:\\Users\\zeno7\\Documents\\Arduino\\libraries\\WiFiNINA\\src",
+        "C:\\Users\\zeno7\\Documents\\Arduino\\libraries\\WiFiNINA\\src\\WiFiServer.cpp",
         "-o",
         "nul"
       ]
@@ -401,13 +401,13 @@
   },
   {
     "compile": {
-      "source_path": "C:\\Users\\GaelHenriquezDevia\\Documents\\Arduino\\libraries\\WiFiNINA\\src\\WiFiStorage.cpp",
-      "object_path": "c:\\Users\\GaelHenriquezDevia\\OneDrive - Sint-Jozefinstituut Schoten\\Documenten\\Arduino\\Arduino-Wifi-Chatroom\\Client\\build\\libraries\\WiFiNINA\\WiFiStorage.cpp.o",
-      "depfile_path": "c:\\Users\\GaelHenriquezDevia\\OneDrive - Sint-Jozefinstituut Schoten\\Documenten\\Arduino\\Arduino-Wifi-Chatroom\\Client\\build\\libraries\\WiFiNINA\\WiFiStorage.cpp.d"
+      "source_path": "C:\\Users\\zeno7\\Documents\\Arduino\\libraries\\WiFiNINA\\src\\WiFiStorage.cpp",
+      "object_path": "C:\\Users\\zeno7\\Documents\\Arduino-Wifi-Chatroom\\Client\\build\\libraries\\WiFiNINA\\WiFiStorage.cpp.o",
+      "depfile_path": "C:\\Users\\zeno7\\Documents\\Arduino-Wifi-Chatroom\\Client\\build\\libraries\\WiFiNINA\\WiFiStorage.cpp.d"
     },
     "compile_task": {
       "args": [
-        "C:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\7-2017q4/bin/arm-none-eabi-g++",
+        "C:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\7-2017q4/bin/arm-none-eabi-g++",
         "-mcpu=cortex-m0plus",
         "-mthumb",
         "-c",
@@ -439,14 +439,14 @@
         "-DUSBCON",
         "-DUSB_MANUFACTURER=\"Arduino LLC\"",
         "-DUSB_PRODUCT=\"Arduino NANO 33 IoT\"",
-        "-IC:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS\\4.5.0/CMSIS/Include/",
-        "-IC:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS-Atmel\\1.2.0/CMSIS/Device/ATMEL/",
-        "-IC:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\cores\\arduino/api/deprecated",
-        "-IC:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\cores\\arduino/api/deprecated-avr-comp",
-        "-IC:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\cores\\arduino",
-        "-IC:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\variants\\nano_33_iot",
-        "-IC:\\Users\\GaelHenriquezDevia\\Documents\\Arduino\\libraries\\WiFiNINA\\src",
-        "C:\\Users\\GaelHenriquezDevia\\Documents\\Arduino\\libraries\\WiFiNINA\\src\\WiFiStorage.cpp",
+        "-IC:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS\\4.5.0/CMSIS/Include/",
+        "-IC:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS-Atmel\\1.2.0/CMSIS/Device/ATMEL/",
+        "-IC:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\cores\\arduino/api/deprecated",
+        "-IC:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\cores\\arduino/api/deprecated-avr-comp",
+        "-IC:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\cores\\arduino",
+        "-IC:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\variants\\nano_33_iot",
+        "-IC:\\Users\\zeno7\\Documents\\Arduino\\libraries\\WiFiNINA\\src",
+        "C:\\Users\\zeno7\\Documents\\Arduino\\libraries\\WiFiNINA\\src\\WiFiStorage.cpp",
         "-o",
         "nul"
       ]
@@ -457,13 +457,13 @@
   },
   {
     "compile": {
-      "source_path": "C:\\Users\\GaelHenriquezDevia\\Documents\\Arduino\\libraries\\WiFiNINA\\src\\WiFiUdp.cpp",
-      "object_path": "c:\\Users\\GaelHenriquezDevia\\OneDrive - Sint-Jozefinstituut Schoten\\Documenten\\Arduino\\Arduino-Wifi-Chatroom\\Client\\build\\libraries\\WiFiNINA\\WiFiUdp.cpp.o",
-      "depfile_path": "c:\\Users\\GaelHenriquezDevia\\OneDrive - Sint-Jozefinstituut Schoten\\Documenten\\Arduino\\Arduino-Wifi-Chatroom\\Client\\build\\libraries\\WiFiNINA\\WiFiUdp.cpp.d"
+      "source_path": "C:\\Users\\zeno7\\Documents\\Arduino\\libraries\\WiFiNINA\\src\\WiFiUdp.cpp",
+      "object_path": "C:\\Users\\zeno7\\Documents\\Arduino-Wifi-Chatroom\\Client\\build\\libraries\\WiFiNINA\\WiFiUdp.cpp.o",
+      "depfile_path": "C:\\Users\\zeno7\\Documents\\Arduino-Wifi-Chatroom\\Client\\build\\libraries\\WiFiNINA\\WiFiUdp.cpp.d"
     },
     "compile_task": {
       "args": [
-        "C:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\7-2017q4/bin/arm-none-eabi-g++",
+        "C:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\7-2017q4/bin/arm-none-eabi-g++",
         "-mcpu=cortex-m0plus",
         "-mthumb",
         "-c",
@@ -495,14 +495,14 @@
         "-DUSBCON",
         "-DUSB_MANUFACTURER=\"Arduino LLC\"",
         "-DUSB_PRODUCT=\"Arduino NANO 33 IoT\"",
-        "-IC:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS\\4.5.0/CMSIS/Include/",
-        "-IC:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS-Atmel\\1.2.0/CMSIS/Device/ATMEL/",
-        "-IC:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\cores\\arduino/api/deprecated",
-        "-IC:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\cores\\arduino/api/deprecated-avr-comp",
-        "-IC:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\cores\\arduino",
-        "-IC:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\variants\\nano_33_iot",
-        "-IC:\\Users\\GaelHenriquezDevia\\Documents\\Arduino\\libraries\\WiFiNINA\\src",
-        "C:\\Users\\GaelHenriquezDevia\\Documents\\Arduino\\libraries\\WiFiNINA\\src\\WiFiUdp.cpp",
+        "-IC:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS\\4.5.0/CMSIS/Include/",
+        "-IC:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS-Atmel\\1.2.0/CMSIS/Device/ATMEL/",
+        "-IC:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\cores\\arduino/api/deprecated",
+        "-IC:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\cores\\arduino/api/deprecated-avr-comp",
+        "-IC:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\cores\\arduino",
+        "-IC:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\variants\\nano_33_iot",
+        "-IC:\\Users\\zeno7\\Documents\\Arduino\\libraries\\WiFiNINA\\src",
+        "C:\\Users\\zeno7\\Documents\\Arduino\\libraries\\WiFiNINA\\src\\WiFiUdp.cpp",
         "-o",
         "nul"
       ]
@@ -513,13 +513,13 @@
   },
   {
     "compile": {
-      "source_path": "C:\\Users\\GaelHenriquezDevia\\Documents\\Arduino\\libraries\\WiFiNINA\\src\\utility\\WiFiSocketBuffer.cpp",
-      "object_path": "c:\\Users\\GaelHenriquezDevia\\OneDrive - Sint-Jozefinstituut Schoten\\Documenten\\Arduino\\Arduino-Wifi-Chatroom\\Client\\build\\libraries\\WiFiNINA\\utility\\WiFiSocketBuffer.cpp.o",
-      "depfile_path": "c:\\Users\\GaelHenriquezDevia\\OneDrive - Sint-Jozefinstituut Schoten\\Documenten\\Arduino\\Arduino-Wifi-Chatroom\\Client\\build\\libraries\\WiFiNINA\\utility\\WiFiSocketBuffer.cpp.d"
+      "source_path": "C:\\Users\\zeno7\\Documents\\Arduino\\libraries\\WiFiNINA\\src\\utility\\WiFiSocketBuffer.cpp",
+      "object_path": "C:\\Users\\zeno7\\Documents\\Arduino-Wifi-Chatroom\\Client\\build\\libraries\\WiFiNINA\\utility\\WiFiSocketBuffer.cpp.o",
+      "depfile_path": "C:\\Users\\zeno7\\Documents\\Arduino-Wifi-Chatroom\\Client\\build\\libraries\\WiFiNINA\\utility\\WiFiSocketBuffer.cpp.d"
     },
     "compile_task": {
       "args": [
-        "C:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\7-2017q4/bin/arm-none-eabi-g++",
+        "C:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\7-2017q4/bin/arm-none-eabi-g++",
         "-mcpu=cortex-m0plus",
         "-mthumb",
         "-c",
@@ -551,14 +551,14 @@
         "-DUSBCON",
         "-DUSB_MANUFACTURER=\"Arduino LLC\"",
         "-DUSB_PRODUCT=\"Arduino NANO 33 IoT\"",
-        "-IC:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS\\4.5.0/CMSIS/Include/",
-        "-IC:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS-Atmel\\1.2.0/CMSIS/Device/ATMEL/",
-        "-IC:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\cores\\arduino/api/deprecated",
-        "-IC:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\cores\\arduino/api/deprecated-avr-comp",
-        "-IC:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\cores\\arduino",
-        "-IC:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\variants\\nano_33_iot",
-        "-IC:\\Users\\GaelHenriquezDevia\\Documents\\Arduino\\libraries\\WiFiNINA\\src",
-        "C:\\Users\\GaelHenriquezDevia\\Documents\\Arduino\\libraries\\WiFiNINA\\src\\utility\\WiFiSocketBuffer.cpp",
+        "-IC:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS\\4.5.0/CMSIS/Include/",
+        "-IC:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS-Atmel\\1.2.0/CMSIS/Device/ATMEL/",
+        "-IC:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\cores\\arduino/api/deprecated",
+        "-IC:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\cores\\arduino/api/deprecated-avr-comp",
+        "-IC:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\cores\\arduino",
+        "-IC:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\variants\\nano_33_iot",
+        "-IC:\\Users\\zeno7\\Documents\\Arduino\\libraries\\WiFiNINA\\src",
+        "C:\\Users\\zeno7\\Documents\\Arduino\\libraries\\WiFiNINA\\src\\utility\\WiFiSocketBuffer.cpp",
         "-o",
         "nul"
       ]
@@ -569,13 +569,13 @@
   },
   {
     "compile": {
-      "source_path": "C:\\Users\\GaelHenriquezDevia\\Documents\\Arduino\\libraries\\WiFiNINA\\src\\utility\\nano_rp2040_support.cpp",
-      "object_path": "c:\\Users\\GaelHenriquezDevia\\OneDrive - Sint-Jozefinstituut Schoten\\Documenten\\Arduino\\Arduino-Wifi-Chatroom\\Client\\build\\libraries\\WiFiNINA\\utility\\nano_rp2040_support.cpp.o",
-      "depfile_path": "c:\\Users\\GaelHenriquezDevia\\OneDrive - Sint-Jozefinstituut Schoten\\Documenten\\Arduino\\Arduino-Wifi-Chatroom\\Client\\build\\libraries\\WiFiNINA\\utility\\nano_rp2040_support.cpp.d"
+      "source_path": "C:\\Users\\zeno7\\Documents\\Arduino\\libraries\\WiFiNINA\\src\\utility\\nano_rp2040_support.cpp",
+      "object_path": "C:\\Users\\zeno7\\Documents\\Arduino-Wifi-Chatroom\\Client\\build\\libraries\\WiFiNINA\\utility\\nano_rp2040_support.cpp.o",
+      "depfile_path": "C:\\Users\\zeno7\\Documents\\Arduino-Wifi-Chatroom\\Client\\build\\libraries\\WiFiNINA\\utility\\nano_rp2040_support.cpp.d"
     },
     "compile_task": {
       "args": [
-        "C:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\7-2017q4/bin/arm-none-eabi-g++",
+        "C:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\7-2017q4/bin/arm-none-eabi-g++",
         "-mcpu=cortex-m0plus",
         "-mthumb",
         "-c",
@@ -607,14 +607,14 @@
         "-DUSBCON",
         "-DUSB_MANUFACTURER=\"Arduino LLC\"",
         "-DUSB_PRODUCT=\"Arduino NANO 33 IoT\"",
-        "-IC:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS\\4.5.0/CMSIS/Include/",
-        "-IC:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS-Atmel\\1.2.0/CMSIS/Device/ATMEL/",
-        "-IC:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\cores\\arduino/api/deprecated",
-        "-IC:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\cores\\arduino/api/deprecated-avr-comp",
-        "-IC:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\cores\\arduino",
-        "-IC:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\variants\\nano_33_iot",
-        "-IC:\\Users\\GaelHenriquezDevia\\Documents\\Arduino\\libraries\\WiFiNINA\\src",
-        "C:\\Users\\GaelHenriquezDevia\\Documents\\Arduino\\libraries\\WiFiNINA\\src\\utility\\nano_rp2040_support.cpp",
+        "-IC:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS\\4.5.0/CMSIS/Include/",
+        "-IC:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS-Atmel\\1.2.0/CMSIS/Device/ATMEL/",
+        "-IC:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\cores\\arduino/api/deprecated",
+        "-IC:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\cores\\arduino/api/deprecated-avr-comp",
+        "-IC:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\cores\\arduino",
+        "-IC:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\variants\\nano_33_iot",
+        "-IC:\\Users\\zeno7\\Documents\\Arduino\\libraries\\WiFiNINA\\src",
+        "C:\\Users\\zeno7\\Documents\\Arduino\\libraries\\WiFiNINA\\src\\utility\\nano_rp2040_support.cpp",
         "-o",
         "nul"
       ]
@@ -625,13 +625,13 @@
   },
   {
     "compile": {
-      "source_path": "C:\\Users\\GaelHenriquezDevia\\Documents\\Arduino\\libraries\\WiFiNINA\\src\\utility\\server_drv.cpp",
-      "object_path": "c:\\Users\\GaelHenriquezDevia\\OneDrive - Sint-Jozefinstituut Schoten\\Documenten\\Arduino\\Arduino-Wifi-Chatroom\\Client\\build\\libraries\\WiFiNINA\\utility\\server_drv.cpp.o",
-      "depfile_path": "c:\\Users\\GaelHenriquezDevia\\OneDrive - Sint-Jozefinstituut Schoten\\Documenten\\Arduino\\Arduino-Wifi-Chatroom\\Client\\build\\libraries\\WiFiNINA\\utility\\server_drv.cpp.d"
+      "source_path": "C:\\Users\\zeno7\\Documents\\Arduino\\libraries\\WiFiNINA\\src\\utility\\server_drv.cpp",
+      "object_path": "C:\\Users\\zeno7\\Documents\\Arduino-Wifi-Chatroom\\Client\\build\\libraries\\WiFiNINA\\utility\\server_drv.cpp.o",
+      "depfile_path": "C:\\Users\\zeno7\\Documents\\Arduino-Wifi-Chatroom\\Client\\build\\libraries\\WiFiNINA\\utility\\server_drv.cpp.d"
     },
     "compile_task": {
       "args": [
-        "C:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\7-2017q4/bin/arm-none-eabi-g++",
+        "C:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\7-2017q4/bin/arm-none-eabi-g++",
         "-mcpu=cortex-m0plus",
         "-mthumb",
         "-c",
@@ -663,14 +663,14 @@
         "-DUSBCON",
         "-DUSB_MANUFACTURER=\"Arduino LLC\"",
         "-DUSB_PRODUCT=\"Arduino NANO 33 IoT\"",
-        "-IC:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS\\4.5.0/CMSIS/Include/",
-        "-IC:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS-Atmel\\1.2.0/CMSIS/Device/ATMEL/",
-        "-IC:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\cores\\arduino/api/deprecated",
-        "-IC:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\cores\\arduino/api/deprecated-avr-comp",
-        "-IC:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\cores\\arduino",
-        "-IC:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\variants\\nano_33_iot",
-        "-IC:\\Users\\GaelHenriquezDevia\\Documents\\Arduino\\libraries\\WiFiNINA\\src",
-        "C:\\Users\\GaelHenriquezDevia\\Documents\\Arduino\\libraries\\WiFiNINA\\src\\utility\\server_drv.cpp",
+        "-IC:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS\\4.5.0/CMSIS/Include/",
+        "-IC:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS-Atmel\\1.2.0/CMSIS/Device/ATMEL/",
+        "-IC:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\cores\\arduino/api/deprecated",
+        "-IC:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\cores\\arduino/api/deprecated-avr-comp",
+        "-IC:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\cores\\arduino",
+        "-IC:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\variants\\nano_33_iot",
+        "-IC:\\Users\\zeno7\\Documents\\Arduino\\libraries\\WiFiNINA\\src",
+        "C:\\Users\\zeno7\\Documents\\Arduino\\libraries\\WiFiNINA\\src\\utility\\server_drv.cpp",
         "-o",
         "nul"
       ]
@@ -680,17 +680,17 @@
     "missing_include_h": "Arduino_SpiNINA.h"
   },
   {
-    "added_include_path": "C:\\Users\\GaelHenriquezDevia\\Documents\\Arduino\\libraries\\Arduino_SpiNINA\\src"
+    "added_include_path": "C:\\Users\\zeno7\\Documents\\Arduino\\libraries\\Arduino_SpiNINA\\src"
   },
   {
     "compile": {
-      "source_path": "C:\\Users\\GaelHenriquezDevia\\Documents\\Arduino\\libraries\\WiFiNINA\\src\\utility\\server_drv.cpp",
-      "object_path": "c:\\Users\\GaelHenriquezDevia\\OneDrive - Sint-Jozefinstituut Schoten\\Documenten\\Arduino\\Arduino-Wifi-Chatroom\\Client\\build\\libraries\\WiFiNINA\\utility\\server_drv.cpp.o",
-      "depfile_path": "c:\\Users\\GaelHenriquezDevia\\OneDrive - Sint-Jozefinstituut Schoten\\Documenten\\Arduino\\Arduino-Wifi-Chatroom\\Client\\build\\libraries\\WiFiNINA\\utility\\server_drv.cpp.d"
+      "source_path": "C:\\Users\\zeno7\\Documents\\Arduino\\libraries\\WiFiNINA\\src\\utility\\server_drv.cpp",
+      "object_path": "C:\\Users\\zeno7\\Documents\\Arduino-Wifi-Chatroom\\Client\\build\\libraries\\WiFiNINA\\utility\\server_drv.cpp.o",
+      "depfile_path": "C:\\Users\\zeno7\\Documents\\Arduino-Wifi-Chatroom\\Client\\build\\libraries\\WiFiNINA\\utility\\server_drv.cpp.d"
     },
     "compile_task": {
       "args": [
-        "C:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\7-2017q4/bin/arm-none-eabi-g++",
+        "C:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\7-2017q4/bin/arm-none-eabi-g++",
         "-mcpu=cortex-m0plus",
         "-mthumb",
         "-c",
@@ -722,15 +722,15 @@
         "-DUSBCON",
         "-DUSB_MANUFACTURER=\"Arduino LLC\"",
         "-DUSB_PRODUCT=\"Arduino NANO 33 IoT\"",
-        "-IC:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS\\4.5.0/CMSIS/Include/",
-        "-IC:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS-Atmel\\1.2.0/CMSIS/Device/ATMEL/",
-        "-IC:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\cores\\arduino/api/deprecated",
-        "-IC:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\cores\\arduino/api/deprecated-avr-comp",
-        "-IC:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\cores\\arduino",
-        "-IC:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\variants\\nano_33_iot",
-        "-IC:\\Users\\GaelHenriquezDevia\\Documents\\Arduino\\libraries\\WiFiNINA\\src",
-        "-IC:\\Users\\GaelHenriquezDevia\\Documents\\Arduino\\libraries\\Arduino_SpiNINA\\src",
-        "C:\\Users\\GaelHenriquezDevia\\Documents\\Arduino\\libraries\\WiFiNINA\\src\\utility\\server_drv.cpp",
+        "-IC:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS\\4.5.0/CMSIS/Include/",
+        "-IC:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS-Atmel\\1.2.0/CMSIS/Device/ATMEL/",
+        "-IC:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\cores\\arduino/api/deprecated",
+        "-IC:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\cores\\arduino/api/deprecated-avr-comp",
+        "-IC:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\cores\\arduino",
+        "-IC:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\variants\\nano_33_iot",
+        "-IC:\\Users\\zeno7\\Documents\\Arduino\\libraries\\WiFiNINA\\src",
+        "-IC:\\Users\\zeno7\\Documents\\Arduino\\libraries\\Arduino_SpiNINA\\src",
+        "C:\\Users\\zeno7\\Documents\\Arduino\\libraries\\WiFiNINA\\src\\utility\\server_drv.cpp",
         "-o",
         "nul"
       ]
@@ -741,13 +741,13 @@
   },
   {
     "compile": {
-      "source_path": "C:\\Users\\GaelHenriquezDevia\\Documents\\Arduino\\libraries\\WiFiNINA\\src\\utility\\wifi_drv.cpp",
-      "object_path": "c:\\Users\\GaelHenriquezDevia\\OneDrive - Sint-Jozefinstituut Schoten\\Documenten\\Arduino\\Arduino-Wifi-Chatroom\\Client\\build\\libraries\\WiFiNINA\\utility\\wifi_drv.cpp.o",
-      "depfile_path": "c:\\Users\\GaelHenriquezDevia\\OneDrive - Sint-Jozefinstituut Schoten\\Documenten\\Arduino\\Arduino-Wifi-Chatroom\\Client\\build\\libraries\\WiFiNINA\\utility\\wifi_drv.cpp.d"
+      "source_path": "C:\\Users\\zeno7\\Documents\\Arduino\\libraries\\WiFiNINA\\src\\utility\\wifi_drv.cpp",
+      "object_path": "C:\\Users\\zeno7\\Documents\\Arduino-Wifi-Chatroom\\Client\\build\\libraries\\WiFiNINA\\utility\\wifi_drv.cpp.o",
+      "depfile_path": "C:\\Users\\zeno7\\Documents\\Arduino-Wifi-Chatroom\\Client\\build\\libraries\\WiFiNINA\\utility\\wifi_drv.cpp.d"
     },
     "compile_task": {
       "args": [
-        "C:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\7-2017q4/bin/arm-none-eabi-g++",
+        "C:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\7-2017q4/bin/arm-none-eabi-g++",
         "-mcpu=cortex-m0plus",
         "-mthumb",
         "-c",
@@ -779,15 +779,15 @@
         "-DUSBCON",
         "-DUSB_MANUFACTURER=\"Arduino LLC\"",
         "-DUSB_PRODUCT=\"Arduino NANO 33 IoT\"",
-        "-IC:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS\\4.5.0/CMSIS/Include/",
-        "-IC:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS-Atmel\\1.2.0/CMSIS/Device/ATMEL/",
-        "-IC:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\cores\\arduino/api/deprecated",
-        "-IC:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\cores\\arduino/api/deprecated-avr-comp",
-        "-IC:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\cores\\arduino",
-        "-IC:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\variants\\nano_33_iot",
-        "-IC:\\Users\\GaelHenriquezDevia\\Documents\\Arduino\\libraries\\WiFiNINA\\src",
-        "-IC:\\Users\\GaelHenriquezDevia\\Documents\\Arduino\\libraries\\Arduino_SpiNINA\\src",
-        "C:\\Users\\GaelHenriquezDevia\\Documents\\Arduino\\libraries\\WiFiNINA\\src\\utility\\wifi_drv.cpp",
+        "-IC:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS\\4.5.0/CMSIS/Include/",
+        "-IC:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS-Atmel\\1.2.0/CMSIS/Device/ATMEL/",
+        "-IC:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\cores\\arduino/api/deprecated",
+        "-IC:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\cores\\arduino/api/deprecated-avr-comp",
+        "-IC:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\cores\\arduino",
+        "-IC:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\variants\\nano_33_iot",
+        "-IC:\\Users\\zeno7\\Documents\\Arduino\\libraries\\WiFiNINA\\src",
+        "-IC:\\Users\\zeno7\\Documents\\Arduino\\libraries\\Arduino_SpiNINA\\src",
+        "C:\\Users\\zeno7\\Documents\\Arduino\\libraries\\WiFiNINA\\src\\utility\\wifi_drv.cpp",
         "-o",
         "nul"
       ]
@@ -798,13 +798,13 @@
   },
   {
     "compile": {
-      "source_path": "C:\\Users\\GaelHenriquezDevia\\Documents\\Arduino\\libraries\\Arduino_SpiNINA\\src\\spi_drv.cpp",
-      "object_path": "c:\\Users\\GaelHenriquezDevia\\OneDrive - Sint-Jozefinstituut Schoten\\Documenten\\Arduino\\Arduino-Wifi-Chatroom\\Client\\build\\libraries\\Arduino_SpiNINA\\spi_drv.cpp.o",
-      "depfile_path": "c:\\Users\\GaelHenriquezDevia\\OneDrive - Sint-Jozefinstituut Schoten\\Documenten\\Arduino\\Arduino-Wifi-Chatroom\\Client\\build\\libraries\\Arduino_SpiNINA\\spi_drv.cpp.d"
+      "source_path": "C:\\Users\\zeno7\\Documents\\Arduino\\libraries\\Arduino_SpiNINA\\src\\spi_drv.cpp",
+      "object_path": "C:\\Users\\zeno7\\Documents\\Arduino-Wifi-Chatroom\\Client\\build\\libraries\\Arduino_SpiNINA\\spi_drv.cpp.o",
+      "depfile_path": "C:\\Users\\zeno7\\Documents\\Arduino-Wifi-Chatroom\\Client\\build\\libraries\\Arduino_SpiNINA\\spi_drv.cpp.d"
     },
     "compile_task": {
       "args": [
-        "C:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\7-2017q4/bin/arm-none-eabi-g++",
+        "C:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\7-2017q4/bin/arm-none-eabi-g++",
         "-mcpu=cortex-m0plus",
         "-mthumb",
         "-c",
@@ -836,15 +836,15 @@
         "-DUSBCON",
         "-DUSB_MANUFACTURER=\"Arduino LLC\"",
         "-DUSB_PRODUCT=\"Arduino NANO 33 IoT\"",
-        "-IC:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS\\4.5.0/CMSIS/Include/",
-        "-IC:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS-Atmel\\1.2.0/CMSIS/Device/ATMEL/",
-        "-IC:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\cores\\arduino/api/deprecated",
-        "-IC:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\cores\\arduino/api/deprecated-avr-comp",
-        "-IC:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\cores\\arduino",
-        "-IC:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\variants\\nano_33_iot",
-        "-IC:\\Users\\GaelHenriquezDevia\\Documents\\Arduino\\libraries\\WiFiNINA\\src",
-        "-IC:\\Users\\GaelHenriquezDevia\\Documents\\Arduino\\libraries\\Arduino_SpiNINA\\src",
-        "C:\\Users\\GaelHenriquezDevia\\Documents\\Arduino\\libraries\\Arduino_SpiNINA\\src\\spi_drv.cpp",
+        "-IC:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS\\4.5.0/CMSIS/Include/",
+        "-IC:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS-Atmel\\1.2.0/CMSIS/Device/ATMEL/",
+        "-IC:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\cores\\arduino/api/deprecated",
+        "-IC:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\cores\\arduino/api/deprecated-avr-comp",
+        "-IC:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\cores\\arduino",
+        "-IC:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\variants\\nano_33_iot",
+        "-IC:\\Users\\zeno7\\Documents\\Arduino\\libraries\\WiFiNINA\\src",
+        "-IC:\\Users\\zeno7\\Documents\\Arduino\\libraries\\Arduino_SpiNINA\\src",
+        "C:\\Users\\zeno7\\Documents\\Arduino\\libraries\\Arduino_SpiNINA\\src\\spi_drv.cpp",
         "-o",
         "nul"
       ]
@@ -854,17 +854,17 @@
     "missing_include_h": "SPI.h"
   },
   {
-    "added_include_path": "C:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\libraries\\SPI"
+    "added_include_path": "C:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\libraries\\SPI"
   },
   {
     "compile": {
-      "source_path": "C:\\Users\\GaelHenriquezDevia\\Documents\\Arduino\\libraries\\Arduino_SpiNINA\\src\\spi_drv.cpp",
-      "object_path": "c:\\Users\\GaelHenriquezDevia\\OneDrive - Sint-Jozefinstituut Schoten\\Documenten\\Arduino\\Arduino-Wifi-Chatroom\\Client\\build\\libraries\\Arduino_SpiNINA\\spi_drv.cpp.o",
-      "depfile_path": "c:\\Users\\GaelHenriquezDevia\\OneDrive - Sint-Jozefinstituut Schoten\\Documenten\\Arduino\\Arduino-Wifi-Chatroom\\Client\\build\\libraries\\Arduino_SpiNINA\\spi_drv.cpp.d"
+      "source_path": "C:\\Users\\zeno7\\Documents\\Arduino\\libraries\\Arduino_SpiNINA\\src\\spi_drv.cpp",
+      "object_path": "C:\\Users\\zeno7\\Documents\\Arduino-Wifi-Chatroom\\Client\\build\\libraries\\Arduino_SpiNINA\\spi_drv.cpp.o",
+      "depfile_path": "C:\\Users\\zeno7\\Documents\\Arduino-Wifi-Chatroom\\Client\\build\\libraries\\Arduino_SpiNINA\\spi_drv.cpp.d"
     },
     "compile_task": {
       "args": [
-        "C:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\7-2017q4/bin/arm-none-eabi-g++",
+        "C:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\7-2017q4/bin/arm-none-eabi-g++",
         "-mcpu=cortex-m0plus",
         "-mthumb",
         "-c",
@@ -896,16 +896,16 @@
         "-DUSBCON",
         "-DUSB_MANUFACTURER=\"Arduino LLC\"",
         "-DUSB_PRODUCT=\"Arduino NANO 33 IoT\"",
-        "-IC:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS\\4.5.0/CMSIS/Include/",
-        "-IC:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS-Atmel\\1.2.0/CMSIS/Device/ATMEL/",
-        "-IC:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\cores\\arduino/api/deprecated",
-        "-IC:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\cores\\arduino/api/deprecated-avr-comp",
-        "-IC:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\cores\\arduino",
-        "-IC:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\variants\\nano_33_iot",
-        "-IC:\\Users\\GaelHenriquezDevia\\Documents\\Arduino\\libraries\\WiFiNINA\\src",
-        "-IC:\\Users\\GaelHenriquezDevia\\Documents\\Arduino\\libraries\\Arduino_SpiNINA\\src",
-        "-IC:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\libraries\\SPI",
-        "C:\\Users\\GaelHenriquezDevia\\Documents\\Arduino\\libraries\\Arduino_SpiNINA\\src\\spi_drv.cpp",
+        "-IC:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS\\4.5.0/CMSIS/Include/",
+        "-IC:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS-Atmel\\1.2.0/CMSIS/Device/ATMEL/",
+        "-IC:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\cores\\arduino/api/deprecated",
+        "-IC:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\cores\\arduino/api/deprecated-avr-comp",
+        "-IC:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\cores\\arduino",
+        "-IC:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\variants\\nano_33_iot",
+        "-IC:\\Users\\zeno7\\Documents\\Arduino\\libraries\\WiFiNINA\\src",
+        "-IC:\\Users\\zeno7\\Documents\\Arduino\\libraries\\Arduino_SpiNINA\\src",
+        "-IC:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\libraries\\SPI",
+        "C:\\Users\\zeno7\\Documents\\Arduino\\libraries\\Arduino_SpiNINA\\src\\spi_drv.cpp",
         "-o",
         "nul"
       ]
@@ -916,13 +916,13 @@
   },
   {
     "compile": {
-      "source_path": "C:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\libraries\\SPI\\SPI.cpp",
-      "object_path": "c:\\Users\\GaelHenriquezDevia\\OneDrive - Sint-Jozefinstituut Schoten\\Documenten\\Arduino\\Arduino-Wifi-Chatroom\\Client\\build\\libraries\\SPI\\SPI.cpp.o",
-      "depfile_path": "c:\\Users\\GaelHenriquezDevia\\OneDrive - Sint-Jozefinstituut Schoten\\Documenten\\Arduino\\Arduino-Wifi-Chatroom\\Client\\build\\libraries\\SPI\\SPI.cpp.d"
+      "source_path": "C:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\libraries\\SPI\\SPI.cpp",
+      "object_path": "C:\\Users\\zeno7\\Documents\\Arduino-Wifi-Chatroom\\Client\\build\\libraries\\SPI\\SPI.cpp.o",
+      "depfile_path": "C:\\Users\\zeno7\\Documents\\Arduino-Wifi-Chatroom\\Client\\build\\libraries\\SPI\\SPI.cpp.d"
     },
     "compile_task": {
       "args": [
-        "C:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\7-2017q4/bin/arm-none-eabi-g++",
+        "C:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\7-2017q4/bin/arm-none-eabi-g++",
         "-mcpu=cortex-m0plus",
         "-mthumb",
         "-c",
@@ -954,16 +954,16 @@
         "-DUSBCON",
         "-DUSB_MANUFACTURER=\"Arduino LLC\"",
         "-DUSB_PRODUCT=\"Arduino NANO 33 IoT\"",
-        "-IC:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS\\4.5.0/CMSIS/Include/",
-        "-IC:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS-Atmel\\1.2.0/CMSIS/Device/ATMEL/",
-        "-IC:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\cores\\arduino/api/deprecated",
-        "-IC:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\cores\\arduino/api/deprecated-avr-comp",
-        "-IC:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\cores\\arduino",
-        "-IC:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\variants\\nano_33_iot",
-        "-IC:\\Users\\GaelHenriquezDevia\\Documents\\Arduino\\libraries\\WiFiNINA\\src",
-        "-IC:\\Users\\GaelHenriquezDevia\\Documents\\Arduino\\libraries\\Arduino_SpiNINA\\src",
-        "-IC:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\libraries\\SPI",
-        "C:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\libraries\\SPI\\SPI.cpp",
+        "-IC:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS\\4.5.0/CMSIS/Include/",
+        "-IC:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS-Atmel\\1.2.0/CMSIS/Device/ATMEL/",
+        "-IC:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\cores\\arduino/api/deprecated",
+        "-IC:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\cores\\arduino/api/deprecated-avr-comp",
+        "-IC:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\cores\\arduino",
+        "-IC:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\variants\\nano_33_iot",
+        "-IC:\\Users\\zeno7\\Documents\\Arduino\\libraries\\WiFiNINA\\src",
+        "-IC:\\Users\\zeno7\\Documents\\Arduino\\libraries\\Arduino_SpiNINA\\src",
+        "-IC:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\libraries\\SPI",
+        "C:\\Users\\zeno7\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14\\libraries\\SPI\\SPI.cpp",
         "-o",
         "nul"
       ]
