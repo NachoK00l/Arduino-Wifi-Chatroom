@@ -1,0 +1,9 @@
+{
+  "additionalFiles": "..\\..\\..",
+  "compiler.optimization_flags": "-Os",
+  "customBuildProperties": "",
+  "fqbn": "arduino:samd:nano_33_iot",
+  "hardwareFolders": "C:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14,C:\\Users\\GaelHenriquezDevia\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.8.14",
+  "otherLibrariesFolders": "C:\\Users\\GaelHenriquezDevia\\Documents\\Arduino\\libraries",
+  "sketchLocation": "C:\\Users\\GaelHenriquezDevia\\OneDrive - Sint-Jozefinstituut Schoten\\Documenten\\Arduino\\Arduino-Wifi-Chatroom\\Server"
+}
