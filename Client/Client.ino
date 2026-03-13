@@ -2,61 +2,67 @@
 #include <WiFi.h>
 
 #define WIFI_SSID "PicoW"
-#define WIFI_PASSWORD "picoWpassword432"
 #define SERVER_IP "192.168.4.1"
-
+String WIFI_PASSWORD;
+bool connected = false;
 WiFiClient client;
 
 void setup()
 {
     Serial.begin(115200);
-    while (!Serial)
-        ;
-
-    WiFi.begin(WIFI_SSID, WIFI_PASSWORD);
-    Serial.print("Connecting to WiFi");
-
-    while (WiFi.status() != WL_CONNECTED)
-    {
-        delay(500);
-        Serial.print(".");
-    }
-
-    if (WiFi.status() != WL_CONNECTED)
-    {
-        Serial.println("Failed to connect to WiFi");
-        return;
-    }
-
-    Serial.println("Connected to WiFi");
-
-    if (!client.connect(SERVER_IP, 80))
-    {
-        Serial.println("Connection to server failed");
-        return;
-    }
-
-    Serial.println("Connected to server\n");
+    while (!Serial);
+    Serial.println("Password?");
 }
 
 void loop()
 {
-    if (!client.connected())
+    if(!connected && Serial.available())
     {
-        Serial.println("Disconnected from server. Please restart the device.");
-        while (true)
-            ;
-    }
+        WIFI_PASSWORD = Serial.readStringUntil('\n');
+        WiFi.begin(WIFI_SSID, WIFI_PASSWORD);
+        Serial.print("Connecting to WiFi");
 
-    if (client.available())
-    {
-        String line = client.readStringUntil('\n');
-        Serial.println("Received from server: " + line);
-    }
+        while (WiFi.status() != WL_CONNECTED)
+        {
+            delay(500);
+            Serial.print(".");
+        }
 
-    if (Serial.available())
+        if (WiFi.status() != WL_CONNECTED)
+        {
+            Serial.println("Failed to connect to WiFi");
+        }
+        else 
+        {
+            Serial.println("Connected to WiFi");
+        }
+        if (!client.connect(SERVER_IP, 80))
+        {
+            Serial.println("Connection to server failed");
+        }
+        else
+        {
+            Serial.println("Connected to server\n");
+        }
+    }
+    while(connected)
     {
-        String input = Serial.readStringUntil('\n');
-        client.print(input);
+        if (!client.connected())
+        {
+            Serial.println("Disconnected from server. Please restart the device.");
+            connected == false;
+        }
+
+        if (client.available())
+        {
+            String line = client.readStringUntil('\n');
+            Serial.println("Received from server: " + line);
+        }
+
+        if (Serial.available())
+        {
+            String input = Serial.readStringUntil('\n');
+            client.println(input);
+        }
     }
 }
