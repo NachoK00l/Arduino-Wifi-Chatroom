@@ -1,5 +1,5 @@
 {
-  "additionalFiles": "..\\..\\..",
+  "additionalFiles": "..\\..\\..,..\\..\\..",
   "compiler.optimization_flags": "-Os",
   "customBuildProperties": "",
   "fqbn": "arduino:samd:nano_33_iot",
