@@ -6,8 +6,10 @@
 #define maxClients 10
 
 WiFiServer server(80);
-
+IPAddress ClientsIP[maxClients];
 WiFiClient clients[maxClients];
+String clientName[maxClients];
+byte timeout = 0;
 
 void setup()
 {
@@ -42,14 +44,19 @@ void loop()
         // Find an empty slot for the new client
         for (int i = 0; i < maxClients; i++)
         {
-            if (newClient == clients[i])
-            {
-                Serial.println("Client already connected");
-                break;
-            }
-            if (!clients[i])
+            if (!clients[i] || !clients[i].connected())
             {
                 clients[i] = newClient;
+                ClientsIP[i] = newClient.remoteIP();
+
+                while(!clients[i].available())
+                    ;
+                String Name = clients[i].read();
+                clientName[i] = Name;
+                Serial.print(String(clientName[i]) + " connected with IP: ");
+                Serial.println(ClientsIP[i].toString());
+
+
                 break;
             }
         }
@@ -75,7 +82,7 @@ void loop()
         {
             String clientData = clients[i].readStringUntil('\n');
             clientData.trim(); // Remove any trailing newline characters
-            Serial.print("Received from client: ");
+            Serial.print("Received from" + String(clientName[i]) + String(i) + ": ");
             Serial.println(clientData);
 
             // Relay to other clients
@@ -94,7 +101,7 @@ void loop()
     {
         if (clients[i] && !clients[i].connected())
         {
-            Serial.println("Client disconnected");
+            Serial.println(String(clientName[i]) + String(i) + "disconnected");
             clients[i].stop();
             clients[i] = WiFiClient(); // Reset the client slot
         }

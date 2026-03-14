@@ -9,6 +9,7 @@ class ChatroomClient
     void (*onDisconnect)(String);
 
     WiFiClient client;
+    bool notified = false;
 
 public:
     ChatroomClient(void (*onMessageReceived)(String), void (*onMessageSent)(String), void (*onUserJoined)(String), void (*onUserLeft)(String), void (*onDisconnect)(String))
@@ -35,9 +36,10 @@ public:
 
     void update()
     {
-        if (!client.connected())
+        if (!client.connected() && !notified)
         {
             onDisconnect("Connection to server lost");
+            notified = true;
         }
 
         if (client.available())

@@ -3,10 +3,12 @@
 #include "ChatroomClient.h"
 
 #define WIFI_SSID "PicoW"
-#define SERVER_IP "192.168.4.1"
+#define SERVER_IP "192.168.42.1"
 #define SERVER_PORT 80
 char WIFI_PASSWORD[64] = ""; // Assuming a maximum password length of 64 characters
 WiFiClient client;
+byte timeout = 0;
+String Name;
 
 // Function prototypes for event handlers
 void onMessageReceived(String message);
@@ -29,20 +31,38 @@ void setup()
         ; // Wait for user input
 
     Serial.readStringUntil('\n').toCharArray(WIFI_PASSWORD, sizeof(WIFI_PASSWORD)); // Read the password and store it in the WIFI_PASSWORD variable
-
+    Serial.print("Enter your username: ");
+    while(true)
+    {
+        if(Serial.available())
+        {
+            Name = Serial.readStringUntil('\n');
+            Serial.println(Name);
+            break;
+        }
+    }
     // Connect to WiFi
     WiFi.begin(WIFI_SSID, WIFI_PASSWORD);
     Serial.print("Connecting to WiFi");
 
-    while (WiFi.status() != WL_CONNECTED)
+    while (WiFi.status() != WL_CONNECTED && timeout < 20)
     {
         delay(500);
         Serial.print(".");
+        timeout++;
     }
-
-    Serial.println("\nConnected to WiFi. IP address: " + WiFi.localIP().toString());
-
-    chatroomClient.connectToServer(SERVER_IP, SERVER_PORT);
+    if(WiFi.status() == WL_CONNECTED)
+    {
+        Serial.println("\nConnected to WiFi. IP address: " + WiFi.localIP().toString());
+        chatroomClient.connectToServer(SERVER_IP, SERVER_PORT);
+        client.println(Name);
+    }
+    else
+    {
+        Serial.println("Failed to connect to " + String(WIFI_SSID) + ".");
+        timeout = 0;
+        return;
+    }
 }
 
 void loop()
