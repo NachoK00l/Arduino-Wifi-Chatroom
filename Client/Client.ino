@@ -67,7 +67,7 @@ void loop()
 
 void onMessageReceived(String message)
 {
-    Serial.println("Message received: " + message);
+    Serial.println("Message received from " + message);
 }
 
 void onMessageSent(String message)
