@@ -10,6 +10,8 @@ class ChatroomClient
 
     WiFiClient client;
     bool notified = false;
+    unsigned long lastPing = 0;
+    const unsigned long PING = 2000;
 
 public:
     ChatroomClient(void (*onMessageReceived)(String), void (*onMessageSent)(String), void (*onUserJoined)(String), void (*onUserLeft)(String), void (*onDisconnect)(String))
@@ -54,5 +56,15 @@ public:
             client.println(input);
             onMessageSent(input);
         }
+        if(client.connected() && millis() - lastPing > PING)
+        {
+            client.println("PING");
+            lastPing = millis();
+        }
+
+    }
+    void sendUser(String Username)
+    {
+        client.println(Username);
     }
 };

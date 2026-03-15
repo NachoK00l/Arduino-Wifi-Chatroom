@@ -32,15 +32,10 @@ void setup()
 
     Serial.readStringUntil('\n').toCharArray(WIFI_PASSWORD, sizeof(WIFI_PASSWORD)); // Read the password and store it in the WIFI_PASSWORD variable
     Serial.print("Enter your username: ");
-    while(true)
-    {
-        if(Serial.available())
-        {
-            Name = Serial.readStringUntil('\n');
-            Serial.println(Name);
-            break;
-        }
-    }
+    while(!Serial.available());
+    Name = Serial.readStringUntil('\n');
+    Name.trim();
+    Serial.println(Name);
     // Connect to WiFi
     WiFi.begin(WIFI_SSID, WIFI_PASSWORD);
     Serial.print("Connecting to WiFi");
@@ -55,7 +50,7 @@ void setup()
     {
         Serial.println("\nConnected to WiFi. IP address: " + WiFi.localIP().toString());
         chatroomClient.connectToServer(SERVER_IP, SERVER_PORT);
-        client.println(Name);
+        chatroomClient.sendUser(Name);
     }
     else
     {

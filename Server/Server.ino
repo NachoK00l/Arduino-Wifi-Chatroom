@@ -4,11 +4,16 @@
 #define ssid "PicoW"
 #define apPassword "picoWpassword432"
 #define maxClients 10
+#define TIMEOUT 5000
 
 WiFiServer server(80);
 IPAddress ClientsIP[maxClients];
 WiFiClient clients[maxClients];
 String clientName[maxClients];
+unsigned long lastSeen[maxClients];
+unsigned long start = 0;
+unsigned long debug = 0;
+
 byte timeout = 0;
 
 void setup()
@@ -40,7 +45,7 @@ void loop()
     if (newClient)
     {
         Serial.println("New client connected");
-
+        
         // Find an empty slot for the new client
         for (int i = 0; i < maxClients; i++)
         {
@@ -48,11 +53,13 @@ void loop()
             {
                 clients[i] = newClient;
                 ClientsIP[i] = newClient.remoteIP();
-
                 while(!clients[i].available())
-                    ;
-                String Name = clients[i].read();
+                {
+                    if(millis() - start > 2000) break;
+                }
+                String Name = clients[i].readStringUntil('\n');
                 clientName[i] = Name;
+                lastSeen[i] = millis();
                 Serial.print(String(clientName[i]) + " connected with IP: ");
                 Serial.println(ClientsIP[i].toString());
 
@@ -70,7 +77,7 @@ void loop()
         {
             if (clients[i])
             {
-                clients[i].print(input);
+                clients[i].println(input);
             }
         }
     }
@@ -82,15 +89,21 @@ void loop()
         {
             String clientData = clients[i].readStringUntil('\n');
             clientData.trim(); // Remove any trailing newline characters
+            lastSeen[i] = millis();
+
+            if(clientData == "PING")
+            continue;
+
+
             Serial.print("Received from" + String(clientName[i]) + String(i) + ": ");
             Serial.println(clientData);
 
             // Relay to other clients
             for (int j = 0; j < maxClients; j++)
             {
-                if (j != i && clients[j])
+                if (j != i && clients[j] && clients[j].connected())
                 {
-                    clients[j].print(clientData);
+                    clients[j].println(clientData);
                 }
             }
         }
@@ -99,11 +112,44 @@ void loop()
     // Check for disconnected clients and remove them from the list
     for (int i = 0; i < maxClients; i++)
     {
-        if (clients[i] && !clients[i].connected())
+        if (clients[i] && clients[i].connected())
         {
-            Serial.println(String(clientName[i]) + String(i) + "disconnected");
-            clients[i].stop();
-            clients[i] = WiFiClient(); // Reset the client slot
+            if(millis() - lastSeen[i] > TIMEOUT)
+            {
+                Serial.println(String(clientName[i]) + String(i) + "disconnected");
+                clients[i].stop();
+                clients[i] = WiFiClient(); // Reset the client slot
+                clientName[i] = "";
+                ClientsIP[i] = IPAddress();
+                lastSeen[i] = 0;
+            }
         }
+    }
+    if(millis() - debug > 1000)
+    {
+        debug = millis();
+        Serial.println("---- Client Status ----");
+        for (int i = 0; i < maxClients; i++)
+        {
+            Serial.print("Slot ");
+            Serial.print(i);
+
+            Serial.print(" | Name: ");
+            Serial.print(clientName[i]);
+
+            Serial.print(" | IP: ");
+            Serial.print(ClientsIP[i]);
+
+            Serial.print(" | Connected: ");
+            Serial.print(clients[i].connected());
+
+            Serial.print(" | LastSeen: ");
+            Serial.print(lastSeen[i]);
+
+            Serial.print(" | Timeout in: ");
+            Serial.println(TIMEOUT - (millis() - lastSeen[i]));
+        }
+
+        Serial.println("-----------------------");
     }
 }
